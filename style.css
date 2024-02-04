@@ -1,0 +1,45 @@
+#puzzle-container {
+  display: grid;
+  max-width: 500px;
+  margin: 20px auto;
+  gap: 10px;
+  width: 500px;
+  height: 500px;
+}
+.empty-tile {
+  background-color: red;
+}
+
+.puzzle-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(241, 241, 241);
+  transition: all 0.5s ease-in-out;
+}
+
+#success-message {
+  display: none;
+  grid-column: span 5;
+  margin-top: 20px;
+  font-size: 18px;
+  color: green;
+  font-weight: bold;
+}
+#puzzle-board {
+  background-color: red;
+  width: 100%;
+}
+
+.chert {
+  background-color: blue;
+}
+ body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1;
+ }
